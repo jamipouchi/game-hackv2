@@ -6,6 +6,7 @@
     margin-right: 10%;
     align-items: center;
     justify-content: space-around;
+    display: flex;
 }
 
 h3 {
@@ -19,4 +20,8 @@ h3 {
 
 .main-body > p {
     margin-top: 10%;
+}
+
+.reloj {
+    text-align: end
 }

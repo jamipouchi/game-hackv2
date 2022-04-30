@@ -1,26 +1,50 @@
 [
   {
-    "id": "AKSANK",
-    "username": "Hauses",
-    "points": 0,
-    "slack": "jordi"
-  },
-  {
-    "id": "CSCCSC",
-    "username": "POLO",
+    "id": "dd6ata6d",
+    "username": "Polo",
     "points": 10,
     "slack": "pololo"
   },
   {
-    "id": "CDCDDC",
-    "username": "POUCHI",
+    "id": "8d8sd8s2",
+    "username": "pikachu",
     "points": 5,
     "slack": "puig"
   },
   {
-    "id": "sdsdsd",
-    "username": "ssdsds",
+    "id": "sjdsds7d7",
+    "username": "Hauses",
+    "points": 5,
+    "slack": "jordi"
+  },
+  {
+    "id": "jd7td7dsdd",
+    "username": "random",
+    "points": 3,
+    "slack": "rand"
+  },
+  {
+    "id": "shs8dy8we",
+    "username": "never",
+    "points": 2,
+    "slack": "ever forever"
+  },
+  {
+    "id": "ufhfsyf8",
+    "username": "bot",
+    "points": 1,
+    "slack": "botnet"
+  },
+  {
+    "id": "kssif8fs",
+    "username": "marcus",
     "points": 0,
-    "slack": "sdsds"
+    "slack": "mclaren"
+  },
+  {
+    "id": "fhirrbfwrw",
+    "username": "harisson Ford",
+    "points": 0,
+    "slack": "ford mustang"
   }
 ]

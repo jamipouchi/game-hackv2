@@ -22,7 +22,7 @@ const Qr = (props) => {
     }
 
     return (
-        <div class="boxQr">
+        <div className="boxQr">
             <QrReader class="Qr"
                 onResult={(result, error) => {
                     if (!!result) {
@@ -41,8 +41,10 @@ const Qr = (props) => {
                     display: 'flex',  justifyContent:'center', alignItems:'center', margin:'10 px'}}
 
             />
-            <p id="qrCode">{data}</p>
-            <Button onClick={reset}>Scann Next</Button>
+            <div className="qr-alignment">
+                <p id="qrCode">{data}</p>
+                <Button onClick={reset}>Scann Next</Button>
+            </div>
 
         </div>
     );

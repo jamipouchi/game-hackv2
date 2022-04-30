@@ -1,0 +1,14 @@
+.logo-container {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-container > img{
+    align-self: center;
+}

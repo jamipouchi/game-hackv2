@@ -2,12 +2,16 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import './mainGame.css'
+import CountdownComp from "./countdown";
 
 export default function MainGame() {
     const navigate = useNavigate()
     return (
         <div className="main-container d-grid gap-2">
             <body className='main-body'>
+            <div className='reloj'>
+                <CountdownComp />
+            </div>
                 <h3>Rules</h3>
                 <p>
                     There have been some lucky hackers who have been selected to

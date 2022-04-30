@@ -1,0 +1,13 @@
+.graph-container{
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    font-family: 'Abel';
+
+}
+

@@ -6,8 +6,11 @@ const Card = ({photo,title,description}) => {
         <MDBCard style={{ width: '18rem' }}>
             <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/182.webp' alt='...' position='top' />
             <MDBCardBody>
+                <MDBCardTitle>
+                    {title}
+                </MDBCardTitle>
                 <MDBCardText>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    {description}
                 </MDBCardText>
             </MDBCardBody>
         </MDBCard>

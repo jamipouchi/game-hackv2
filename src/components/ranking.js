@@ -1,10 +1,12 @@
 import React from 'react'
 import Rank from "./LeaderBoard"
 export default function Ranking() {
-    return(
+    return (
         <div>
-            <h1>Ranking</h1>
-            <Rank></Rank>
+            <h3>Ranking</h3>
+            <div className="taula-ranking">
+                <Rank/>
+            </div>
         </div>
-    )
+    );
 }

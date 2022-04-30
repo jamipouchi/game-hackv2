@@ -17,7 +17,7 @@ export default function MainGame() {
 
 
     return(
-        <div class="QrContainer">
+        <div className="QrContainer">
             <QrContainer id="qr+" title={"Enter your Qr code"}></QrContainer>
             <p id="first"></p>
             <p id="second"></p>

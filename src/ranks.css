@@ -2,6 +2,10 @@ table {
     width: 100%;
 }
 
+.taula-ranking {
+    margin-top: 10%;
+}
+
 th,
 td {
     padding: 12px 15px;
@@ -30,6 +34,7 @@ canvas{
     padding: 50px;
     margin: 20px;
     align-items: center;
+
 }
 .Qr{
     width: 100%;
@@ -39,4 +44,12 @@ canvas{
 .QrContainer{
     alignItems: 'center';
     flex: 1;
+}
+
+.qr-alignment{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
 }
