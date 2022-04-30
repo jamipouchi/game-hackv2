@@ -9,8 +9,9 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Ranking from "./components/ranking";
 import MainGame from "./components/mainGame";
+import QrCall from "./components/QrCall"
 import Footer from "./components/Footer";
-import Pixel from "./components/pixels/PixelCanvas"
+
 
 
 import SnakeComp from "./components/snake";
@@ -30,10 +31,10 @@ export default function App() {
         <Route path='/snake' element={<SnakeComp/>} />
         <Route path='/killer' element={<Killer/>} />
         <Route path='/group' element={<Group/>} />
-        
+        <Route path='/scan' element={<QrCall></QrCall>}></Route>
       </Routes>
     </BrowserRouter>
-        <Footer></Footer>
+
     </div>
   );
 };
