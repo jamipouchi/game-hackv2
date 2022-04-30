@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './navbar.css'
+
 export default function Navbar(props) {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
