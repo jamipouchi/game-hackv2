@@ -1,0 +1,20 @@
+.killer-container {
+    margin: 10%;
+}
+
+.killer-container > h1 {
+    text-align: center;
+}
+
+.camera-scan {
+    height: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: black;
+}
+
+.killer-general > p {
+    margin-top: 10%;
+    text-align: center;
+}
+

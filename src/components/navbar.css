@@ -1,0 +1,12 @@
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    text-align: center;
+}

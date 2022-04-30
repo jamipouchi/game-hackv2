@@ -1,0 +1,27 @@
+* { padding: 0; margin: 0; }
+
+.container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%;
+    font-family: 'Abel';
+}
+
+.title {
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+img {
+    opacity: 0.5;
+  }
+
+a {
+    z-index: 1;
+    position: relative
+}
