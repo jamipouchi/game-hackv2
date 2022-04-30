@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // We import all the components we need in our app
 import Navbar from "./components/navbar";
@@ -12,8 +13,9 @@ export default function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={Ranking} />
+        <Route path='/home' element={<Home/>} />
+        <Route path='/ranking' element={<Ranking/>} />
+        <Route path='mainGame' element={<MainGame/>} />
       </Routes>
     </BrowserRouter>
   );
