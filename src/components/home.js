@@ -19,7 +19,7 @@ export default function Home(props) {
                         alt="Image One"
                     />
                     <Carousel.Caption>
-                        <h3><a className="nav-link" href="ranking">Play!</a></h3>
+                        <h3><a className="nav-link" href="ranking">Participate!</a></h3>
                         <p>Sample Text for Image One</p>
                     </Carousel.Caption>
                 </Carousel.Item>
