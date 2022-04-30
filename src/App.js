@@ -8,6 +8,8 @@ import Home from "./components/home";
 import Ranking from "./components/ranking";
 import MainGame from "./components/mainGame";
 import Footer from "./components/Footer";
+import Pixel from "./components/pixels/PixelCanvas"
+
 
 
 export default function App() {
@@ -19,7 +21,8 @@ export default function App() {
         <Routes>
             <Route path='/home' element={<Home/>} />
             <Route path='/ranking' element={<Ranking/>} />
-            <Route path='mainGame' element={<MainGame/>} />
+            <Route path='/mainGame' element={<MainGame/>} />
+
         </Routes>
     </BrowserRouter>
         <Footer></Footer>

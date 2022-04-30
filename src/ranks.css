@@ -18,3 +18,25 @@ th:last-child,
 td:last-child {
     padding-right: 0;
 }
+
+canvas{
+    justify-content: center;
+}
+
+.boxQr{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+}
+.Qr{
+    width: 100%;
+    text-align: center;
+}
+
+.QrContainer{
+    alignItems: 'center';
+    flex: 1;
+}
