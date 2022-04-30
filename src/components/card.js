@@ -3,7 +3,7 @@ import {MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, M
 
 const Card = ({photo,title,description}) => {
     return (
-        <MDBCard style={{ width: '18rem'}}>
+        <MDBCard style={{ width: '18rem' }}>
             <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/182.webp' alt='...' position='top' />
             <MDBCardBody>
                 <MDBCardText>
@@ -13,4 +13,4 @@ const Card = ({photo,title,description}) => {
         </MDBCard>
     );
 }
-export default Card 
+export default Card
