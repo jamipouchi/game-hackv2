@@ -58,111 +58,49 @@ export default function GraphComp() {
         links: [
             // Groups
             {
-                source: "Marvel",
-                target: "Heroes"
+                source: "jorge",
+                target: "blanco"
             },
             {
-                source: "Marvel",
-                target: "Villains"
+                source: "perraka",
+                target: "bruka"
             },
             {
-                source: "Marvel",
-                target: "Teams"
+                source: "polako",
+                target: "contri"
             },
             // Heroes
             {
-                source: "Heroes",
-                target: "Spider-Man"
+                source: "polako",
+                target: "lesbocha"
             },
             {
-                source: "Heroes",
-                target: "CAPTAIN MARVEL"
+                source: "polako",
+                target: "elxevi"
             },
             {
-                source: "Heroes",
-                target: "HULK"
+                source: "polako",
+                target: "cometa"
             },
             {
-                source: "Heroes",
-                target: "Black Widow"
+                source: "la yeni",
+                target: "jorge"
             },
             {
-                source: "Heroes",
-                target: "Daredevil"
+                source: "bruka",
+                target: "tito"
             },
             {
-                source: "Heroes",
-                target: "Wolverine"
+                source: "keri",
+                target: "jami"
             },
             {
-                source: "Heroes",
-                target: "Captain America"
+                source: "nat",
+                target: "kurni"
             },
             {
-                source: "Heroes",
-                target: "Iron Man"
-            },
-            {
-                source: "Heroes",
-                target: "THOR"
-            },
-            // Villains
-            {
-                source: "Villains",
-                target: "Dr. Doom"
-            },
-            {
-                source: "Villains",
-                target: "Mystique"
-            },
-            {
-                source: "Villains",
-                target: "Red Skull"
-            },
-            {
-                source: "Villains",
-                target: "Ronan"
-            },
-            {
-                source: "Villains",
-                target: "Magneto"
-            },
-            {
-                source: "Villains",
-                target: "Thanos"
-            },
-            {
-                source: "Villains",
-                target: "Black Cat"
-            },
-            // Teams
-            {
-                source: "Teams",
-                target: "Avengers"
-            },
-            {
-                source: "Teams",
-                target: "Guardians of the Galaxy"
-            },
-            {
-                source: "Teams",
-                target: "Defenders"
-            },
-            {
-                source: "Teams",
-                target: "X-Men"
-            },
-            {
-                source: "THOR",
-                target: "Fantastic Four"
-            },
-            {
-                source: "Teams",
-                target: "Fantastic Four"
-            },
-            {
-                source: "Teams",
-                target: "Inhumans"
+                source: "nat",
+                target: "pauet"
             }
         ],
         nodes: [
@@ -194,114 +132,114 @@ export default function GraphComp() {
             },
             // Heroes
             {
-                id: "Spider-Man",
-                name: "Peter Benjamin Parker",
+                id: "jami",
+                name: "Miquel Puig",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png",
                 size: 400
             },
             {
-                id: "CAPTAIN MARVEL",
-                name: "Carol Danvers",
+                id: "jorge",
+                name: "Jordi Cases",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png",
                 size: 400
             },
             {
-                id: "HULK",
-                name: "Robert Bruce Banner",
+                id: "tito",
+                name: "Robert Brell",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_hulk.png",
                 size: 400
             },
             {
-                id: "Black Widow",
-                name: "Natasha Alianovna Romanova",
+                id: "kurni",
+                name: "Joan Cornella",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_blackwidow.png",
                 size: 400
             },
             {
-                id: "Daredevil",
-                name: "Matthew Michael Murdock",
+                id: "pauet",
+                name: "Pau Gratacos",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_daredevil.png",
                 size: 400
             },
             {
-                id: "Wolverine",
-                name: "James Howlett",
+                id: "perraka",
+                name: "Guillem Perramon",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_wolverine.png",
                 size: 400
             },
             {
-                id: "Captain America",
-                name: "Steven Rogers",
+                id: "polako",
+                name: "Pol Ros",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainamerica.png",
                 size: 400
             },
             {
-                id: "Iron Man",
-                name: "Tony Stark",
+                id: "elxevi",
+                name: "Xevi Losada",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_ironman.png",
                 size: 400
             },
             {
-                id: "THOR",
-                name: "Thor Odinson",
+                id: "cometa",
+                name: "Ferran Comet",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_thor.png",
                 size: 400
             },
             // Villains
             {
-                id: "Dr. Doom",
-                name: "Victor von Doom",
+                id: "la yeni",
+                name: "Jenifer Garcia",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/drdoom.png",
                 size: 400
             },
             {
-                id: "Mystique",
-                name: "Unrevealed",
+                id: "bruka",
+                name: "Bruna Carreres",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/mystique.png",
                 size: 400
             },
             {
-                id: "Red Skull",
-                name: "Johann Shmidt",
+                id: "keri",
+                name: "Queralt Farreta",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/redskull.png",
                 size: 400
             },
             {
-                id: "Ronan",
-                name: "Ronan",
+                id: "blanco",
+                name: "Elena Trimpa",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/ronan.png",
                 size: 400
             },
             {
-                id: "Magneto",
-                name: "Max Eisenhardt",
+                id: "nat",
+                name: "Joana Subirana",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/magneto.png",
                 size: 400
             },
             {
-                id: "Thanos",
-                name: "Thanos",
+                id: "contri",
+                name: "Alexia Contradall",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/thanos.png",
                 size: 400
             },
             {
-                id: "Black Cat",
-                name: "Felicia Hardy",
+                id: "lesbocha",
+                name: "Marina Augura",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/blackcat.png",
                 size: 400
