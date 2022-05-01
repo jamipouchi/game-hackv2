@@ -15,9 +15,9 @@ export default function MainGame() {
                 <h3>Rules</h3>
                 <p>
                     There have been some lucky hackers who have been selected to
-                    carry the "nomvirus". Every time they make a new connection,
-                    the "nomvirus" is transmitted. <br/>
-                    At the end of the Hackathon, you will see how the "nomvirus"
+                    carry the "HackU virus". Every time they make a new connection,
+                    the "HackU virus" is transmitted. <br/>
+                    At the end of the Hackathon, you will see how the "HackU virus"
                     has expanded in a graph-like display and you can even check your
                     Erdös number with other participants. <br/>
                     Connections can be made by finding a random opponent, participating

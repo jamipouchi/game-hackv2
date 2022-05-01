@@ -1,5 +1,7 @@
 import React from 'react'
 import QrContainer from "./QrContainer";
+import Button from "react-bootstrap/Button";
+import {useNavigate} from "react-router-dom";
 
 
 export default function MainGame() {
@@ -7,6 +9,7 @@ export default function MainGame() {
     let myQr;
     let mySecondQr;
     var file = 'main.json'
+    const navigate = useNavigate()
 
     function setFirstQr(value){
         myQr = value;
@@ -21,7 +24,7 @@ export default function MainGame() {
             <QrContainer id="qr+" title={"Enter your Qr code"}></QrContainer>
             <p id="first"></p>
             <p id="second"></p>
-            <button >Finish</button>
+            <Button ariant="primary" onClick={() => navigate('/home')}>Finish </Button>
         </div>
     )
 }

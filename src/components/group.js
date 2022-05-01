@@ -17,7 +17,7 @@ export default function Group() {
                     button and scan your QR. If you want to join an existing
                     room, scan the creators QR, and you will automatically join.
                     <br/>
-                    If any one of the participants has the "nomvirus", all
+                    If any one of the participants has the "HackU virus", all
                     room participants will be infected.
 
                 </p>

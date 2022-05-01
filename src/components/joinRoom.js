@@ -15,7 +15,7 @@ class JoinRoom extends React.Component{
         return(
             <div className="createRoom-container">
                 <div>
-                    <h3>Scan your QR to create a room</h3>
+                    <h3>Scan the creator QR to join a room</h3>
                 </div>
                 <QrContainer/>
                 <div>

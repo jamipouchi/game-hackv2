@@ -43,7 +43,7 @@ const Qr = (props) => {
             />
             <div className="qr-alignment">
                 <p id="qrCode">{data}</p>
-                <Button onClick={reset}>Scann Next</Button>
+                <Button onClick={reset}>Scan Next</Button>
             </div>
 
         </div>

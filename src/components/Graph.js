@@ -104,33 +104,6 @@ export default function GraphComp() {
             }
         ],
         nodes: [
-            // Groups
-            {
-                id: "Marvel",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_spiderman.png",
-                size: 500,
-                fontSize: 18
-            },
-            {
-                id: "Heroes",
-                symbolType: "circle",
-                color: "red",
-                size: 300
-            },
-            {
-                id: "Villains",
-                symbolType: "circle",
-                color: "red",
-                size: 300
-            },
-            {
-                id: "Teams",
-                symbolType: "circle",
-                color: "red",
-                size: 300
-            },
-            // Heroes
             {
                 id: "jami",
                 name: "Miquel Puig",
@@ -242,49 +215,6 @@ export default function GraphComp() {
                 name: "Marina Augura",
                 svg:
                     "http://marvel-force-chart.surge.sh/marvel_force_chart_img/blackcat.png",
-                size: 400
-            },
-            // Teams
-            {
-                id: "Avengers",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/avengers.png",
-                size: 400
-            },
-            {
-                id: "Guardians of the Galaxy",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/gofgalaxy.png",
-                size: 400
-            },
-            {
-                id: "Defenders",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/defenders.png",
-                size: 400
-            },
-            {
-                id: "X-Men",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/xmen.png",
-                size: 400
-            },
-            {
-                id: "Fantastic Four",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/fantasticfour.png",
-                size: 400
-            },
-            {
-                id: "Inhumans",
-                name: "",
-                svg:
-                    "http://marvel-force-chart.surge.sh/marvel_force_chart_img/inhumans.png",
                 size: 400
             }
         ]
