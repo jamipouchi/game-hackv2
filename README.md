@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Hack&Game
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Inspiration
 
-In the project directory, you can run:
+We started to create a game, but we quickly came to the realization that what we really wanted was to disconnect, and we were playing physical games such as chess. So we thought, why don't we find a way to make people come togethere, help hackers meet new people in an easy way. We bet they will find a way to have fun from the myriad of possibilities of enterntainment that exist today, and maybe it doesn't have to be through a screen.
 
-### `npm start`
+## What it does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Hack&Game web application helps you meet other hackers in different ways:
+- By finding a random opponent that is also looking to meet up with someone. When scanning your QR, if someone is also looking to meet, you will be given his slack handle.
+- If you are with a group of hackers, one can create a room by scanning his QR and the others can join said room by also scanning the creator's QR.
+- Simply ask someone to scan his QR at the main page tab
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+At the beginning of the Hackathon, the "HackU" virus will be on some lucky hackers, and every connection they make, they will propagate it. When the time expires, everyone will be able to see the graph of infections generated.
 
-### `npm test`
+## How we built it
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We used the most popular Javascript framework for web development, React.Using functional components, and with the help of some libraries such as bootstrap. We managed the project through Github, working on different branches, and merging the changes when needed.
 
-### `npm run build`
+## Challenges we ran into
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We had never built a react web-app, and we were only familiar with html-js-css, so it was very hard to get started, and we had to constantly learn about what we were building. We also tried to build full-stack with the MERN stack, which we also had never used, but we realized that not enough time was given to fully implement it. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Accomplishments that we're proud of
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Designing, and building a web app, that we would, as hackers, use as a way to rest and meet new people. It is designed mainly for mobile use, and it is fully responsive in both ways. We also managed to finish every look of the web, without leaving any page too unattended.
 
-### `npm run eject`
+## What we learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We learned a lot about react, how cool it is to create/reuse components, hooks such as the useState... etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What's next for Hack&Game
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We hope for all Hackers interested in the project to come and give us feedback. We've already talked to some, but since we want this to be used by every hacker, we want it to be feature complete. And finally, we would love to have this as a web-app, or as a part of the hackupc app next year! ;) 
